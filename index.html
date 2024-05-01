@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">     
+        <h1>Tribe</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contacts.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--Side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+    <div class="side-navbar-links">        
+      <p class="side-navbar-link"><a href="index.html">Home</a></p>
+      <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+      <p class="side-navbar-link"><a href="contacts.html">Contact</a></p>
+    </div>
+</div>
+
+<!--Header-->
+<div class="header">
+    <div>
+        <h1>Level up your style</h1>
+        <p>with our stunning collections</p>
+        <button>Shop Now</button>
+    </div>
+    <div>
+        <img class="header-img" src="https://source.unsplash.com/random/300x300/?fashion" alt="">
+    </div>
+</div>
+
+<!--Service-->
+<div class="service">
+    <div class="service-container-1">
+        <div>
+            <h2>We Provide Best</h2>
+            <h2>customer Experience</h2>
+        </div>
+        <div>
+            <p>|| we ensure that our customer have the best shopping experience</p>
+        </div>
+    </div>
+    <div class="service-container-2">
+         <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <h4>Satisaction Guarntee</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cumque, ratione nihil deserunt </p>
+         </div>
+
+         <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <h4>New Arrival Everyday</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cumque, ratione nihil deserunt </p>
+         </div>
+
+         <div>
+            <i class="fa-regular fa-face-smile"></i>
+            <h4>Fast & Free Shipping</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cumque, ratione nihil deserunt </p>
+         </div>
+
+    </div>
+</div>
+
+
+<!--New Arrivals-->
+<div>
+    <h2 style="padding: 20px;">New Arrival</h2>
+</div>
+<div class="new-arrival">
+    <div class="new-arrival-container">
+        <img  src="https://source.unsplash.com/random/200x200/?fashion?5" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <div class="new-arrival-container">
+        <img  src="https://source.unsplash.com/random/200x200/?fashion?2" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <div class="new-arrival-container">
+        <img  src="https://source.unsplash.com/random/200x200/?fashion?3" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <div class="new-arrival-container">
+        <img  src="https://source.unsplash.com/random/200x200/?fashion?4" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    
+</div>
+
+<!--Most Wanted-->
+<div>
+    <h2 style="padding: 20px;">Most Wanted</h2>
+</div>
+<div class="new-arrival">
+    <div class="new-arrival-container">
+        <img  src="https://source.unsplash.com/random/200x200/?fashion?6" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <div class="new-arrival-container">
+        <img  src="https://source.unsplash.com/random/200x200/?fashion?7" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <div class="new-arrival-container">
+        <img  src="https://source.unsplash.com/random/200x200/?fashion?8" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <div class="new-arrival-container">
+        <img  src="https://source.unsplash.com/random/200x200/?fashion?9" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    
+</div>
+
+<!-- News -->
+
+<div class="news">
+    <h2>Join our News Letter</h2>
+    <p>Signup for our email newsletter to get exclusive discounts, updates and more</p>
+    <div>
+        <input type="text" class="search">
+    </div>
+
+    <div>
+        <button>Subscribe
+        </button>
+    </div>
+</div>
+
+<!-- Footer -->
+
+<div class="footer">
+<div class="footer-container">
+    <div class="footer-box-1">
+        <h2 class="heading text">Tribe</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <div class="footer-icon-cantainer">
+                <i class="fa-brands fa-instagram" style="color: white;"></i>
+                <i class="fa-brands fa-twitter" style="color: white;"></i>
+                <i class="fa-brands fa-facebook" style="color: white;"></i>
+         </div>
+        <p>@2024 Tribe.com</p>
+    </div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="C:\Users\JOHNSON\OneDrive\Desktop\WebTech\New folder\index.js"></script>
+</body>
+</html>
